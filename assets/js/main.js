@@ -8,7 +8,7 @@ button.addEventListener("click", function() {
         fase = 0;
     }
 
-    const goku = "#goku"+fase;
+    const goku = "goku"+fase;
 
     const estado = document.querySelector(".goku").id = goku;
 
