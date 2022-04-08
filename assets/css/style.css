@@ -29,7 +29,7 @@ section {
     align-items: flex-start;
     flex-direction: column;
 }
-div {
+.goku {
     width: 256px;
     height: 512px;
 }
@@ -40,33 +40,33 @@ input {
 }
 
 #goku0 {
-    background-image: url(../img/goku0);
+    background-image: url("../img/goku0");
 }
 
 #goku1 {
-    background-image: url(../img/goku1);
+    background-image: url("../img/goku1");
 }
 
 #goku2 {
-    background-image: url(../img/goku2);
+    background-image: url("../img/goku2");
 }
 
 #goku3 {
-    background-image: url(../img/goku3);
+    background-image: url("../img/goku3");
 }
 
 #goku4 {
-    background-image: url(../img/goku4);
+    background-image: url("../img/goku4");
 }
 
 #goku5 {
-    background-image: url(../img/goku5);
+    background-image: url("../img/goku5");
 }
 
 #goku6 {
-    background-image: url(../img/goku6);
+    background-image: url("../img/goku6");
 }
 
 #goku7 {
-    background-image: url(../img/goku7);
+    background-image: url("../img/goku7");
 }
