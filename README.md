@@ -1,6 +1,7 @@
 # Blue-M2P1
-Projeto 1 do módulo 2
 
 <a href="https://santos95mat.github.io/Blue-M2P1/" target="_blank">
-  DragonBall - Evolutions
+  <img style="width: 300px;" src="./assets/img/logo.png" alt="DragonBall - Evolutions">
 </a>
+</br>
+clique na imagem para abrir o projeto
