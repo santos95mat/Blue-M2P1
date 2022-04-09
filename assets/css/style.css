@@ -36,14 +36,16 @@
 }
 
 .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 30px;
     border: 2px solid orange;
-    text-align: center;
-    font-size: 15px;
     background-color: orange;
     color: black;
-    font-weight: bolder;
+    font-size: 11px;
+    font-family: Arial;
 }
 
 .goku {

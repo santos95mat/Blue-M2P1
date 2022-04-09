@@ -1,5 +1,5 @@
 const button = document.querySelector(".button");
-const text = document.querySelector(".text")
+const text = document.querySelector(".evolution")
 
 let fase = 1;
 const evolution = [
@@ -12,7 +12,6 @@ const evolution = [
     "Goku Deus azul",
     "Goku Instinto Superior"
 ];
-const btn = ["Zerar", "Evoluir"];
  
 button.addEventListener("click", function() {
     if(fase === 7) {
@@ -29,7 +28,7 @@ button.addEventListener("click", function() {
 
     const estado = document.querySelector(".goku").id = goku;
 
-    text.value = evolution[fase];
+    text.innerHTML = evolution[fase];
 
     fase++;
 });
