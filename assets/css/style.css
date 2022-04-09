@@ -4,15 +4,17 @@
 }
 
 .nav {
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     align-content: center;
+    gap: 10px;
     width: 100%;
-    height: 100px;
+    height: auto;
     background-color: orange;
-    color: black;
+    color: white;
 }
 
 .nav img {
@@ -99,8 +101,4 @@
 
 #goku6 {
     background-image: url("../img/fase6.jpg");
-}
-
-#goku7 {
-    background-image: url("../img/fase7.jpg");
 }

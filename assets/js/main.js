@@ -9,18 +9,17 @@ const evolution = [
     "Goku SSJ 3",
     "Goku SSJ 4",
     "Goku Deus",
-    "Goku Deus azul",
     "Goku Instinto Superior"
 ];
  
 button.addEventListener("click", function() {
-    if(fase === 7) {
+    if(fase === 6) {
         button.value = "ZERAR";
     } else {
         button.value = "EVOLUIR";
     }
 
-    if(fase > 7) {
+    if(fase > 6) {
         fase = 0;
     }
 
