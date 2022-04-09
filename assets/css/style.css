@@ -31,12 +31,12 @@
 .section1 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 
 .text {
-    width: 170px;
+    width: 200px;
     height: 30px;
     border: 2px solid orange;
     text-align: center;
@@ -47,8 +47,8 @@
 }
 
 .goku {
-    width: 170px;
-    height: 340px;
+    width: 200px;
+    height: 300px;
     border: 2px solid orange;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,10 +56,19 @@
 }
 
 .button {
-    width: 170px;
-    height: 30px;
-    border-radius: 15px;
+    width: 55px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: rgb(165, 233, 253);
     margin-top: 10px;
+    background-color: rgb(165, 233, 253);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: orange;
+    border-color: orange;
 }
 
 #goku0 {

@@ -2,7 +2,16 @@ const button = document.querySelector(".button");
 const text = document.querySelector(".text")
 
 let fase = 1;
-const frases = ["Normal", "SSJ 1", "SSJ 2", "SSJ 3", "SSJ 4", "Deus", "Deus azul", "Instinto Superior"];
+const frases = [
+    "Goku",
+    "Goku SSJ 1",
+    "Goku SSJ 2",
+    "Goku SSJ 3",
+    "Goku SSJ 4",
+    "Goku Deus",
+    "Goku Deus azul",
+    "Goku Instinto Superior"
+];
 const btn = ["Zerar", "Evoluir"];
  
 button.addEventListener("click", function() {
