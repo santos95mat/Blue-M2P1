@@ -15,18 +15,16 @@ const evolution = [
 button.addEventListener("click", function() {
     if(fase === 6) {
         button.value = "ZERAR";
-    } else {
-        button.value = "EVOLUIR";
     }
-
     if(fase > 6) {
+        button.value = "EVOLUIR";
         fase = 0;
     }
 
-    const goku = "goku"+fase;
-
-    const estado = document.querySelector(".goku").id = goku;
-
+    const id = "goku"+fase;
+    const goku = document.querySelector(".goku");
+    
+    goku.id = id;
     text.innerHTML = evolution[fase];
 
     fase++;
