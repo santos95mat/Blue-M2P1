@@ -1,7 +1,8 @@
 const button = document.querySelector(".button");
+const text = document.querySelector(".text")
 
 let fase = 1;
-let frases = ["Goku", "Goku SSJ 1", "Goku SSJ 2", "Goku SSJ 3", "Goku SSJ 4", "Goku SSJ Deus", "Goku SSJ Azul", "Goku SSJ Superior"]
+let frases = ["Normal", "SSJ 1", "SSJ 2", "SSJ 3", "SSJ 4", "Deus", "Deus azul", "Instinto Superior"]
 
 button.addEventListener("click", function() {
     if(fase > 7) {
@@ -12,7 +13,7 @@ button.addEventListener("click", function() {
 
     const estado = document.querySelector(".goku").id = goku;
 
-    button.value = frases[fase];
+    text.value = frases[fase];
 
     fase++;
 });
