@@ -1,6 +1,8 @@
 const button = document.querySelector(".button");
 const text = document.querySelector(".evolution")
+const goku = document.querySelector(".goku");
 
+let id
 let fase = 1;
 const evolution = [
     "Goku",
@@ -21,8 +23,7 @@ button.addEventListener("click", function() {
         fase = 0;
     }
 
-    const id = "goku"+fase;
-    const goku = document.querySelector(".goku");
+    id = "goku"+fase; 
     
     goku.id = id;
     text.innerHTML = evolution[fase];
