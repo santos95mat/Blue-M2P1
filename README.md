@@ -1,6 +1,6 @@
-# Blue-M2P1
+# Módulo 2 projeto 1
 
-##### A imagem é o link para teste
+##### click na imagem para ser redirecionado a página para teste do projeto
 
 <div>
   <a href="https://santos95mat.github.io/Blue-M2P1/" target="_blank">
